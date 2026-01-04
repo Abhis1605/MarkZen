@@ -112,5 +112,17 @@
 
     h1{
         font-size: 50px;
+        color: #353f4f;
+    }
+    h5{
+        color: #959595;
+        font-weight: 500;
+    }
+    .box{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
 }
