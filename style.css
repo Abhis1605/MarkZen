@@ -337,3 +337,53 @@
     line-height: 1.6;
 }
 /* one stop solution section end */
+
+/* work strategies section */
+.work-strategies,.quick-integration-content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 8%;
+}
+.work-strategies .content, .quick-integration-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    width: 50%;
+}
+.work-strategies .content h4,
+.quick-integration-content h4{
+    font-size: 14px;
+    color: #464546;
+    text-transform: uppercase;
+}
+.work-strategies .content h1,.quick-integration-content h1{
+    font-size: 50px;
+    line-height: 70px;
+    color: #292929;
+    text-transform: uppercase;
+}
+.work-strategies .content p,.quick-integration-content p{
+    font-size: 15px;
+    color: #1a1a1a;
+    width: 80%;
+}
+.work-strategies .content h3{
+    font-size: 18px;
+    color: #464646;
+    text-transform: uppercase;
+}
+.work-strategies .content p i{
+    color: crimson;
+    padding: 5px;
+    background-color: rgba(255, 203, 213, 0.108);
+    border-radius: 50%;
+    margin-left: 4px;
+}
+.work-strategies .work-strategies-image img,.quick-integration-content img{
+    width: 100%;
+    
+}
+/* work strategies section end */
