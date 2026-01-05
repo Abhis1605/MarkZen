@@ -19,6 +19,9 @@
     gap: 20px;
     padding: 0 8%;
     font-weight: 500;
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 .nav-wrapper{
     width: 100%;
@@ -613,6 +616,22 @@
 
 /* footer section end */
 
+/* footer credit */
+.footer-credit{
+    width: 100%;
+    text-align: center;
+    padding: 20px 8%;
+    background-color: #f6f5fa;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer-credit p{
+    color: #6b6b6b;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* footer credit end */
+
 /* Media Queries */
 @media (max-width: 980px) {
     .hero-container-part1{
@@ -679,8 +698,18 @@
 
 /* Mobile phone media query */
 @media (max-width: 768px) {
+    .navbar{
+        padding: 0 4%;
+    }
+    .logo img{
+        min-width: 220px;
+    }
     .menu{
         display: none;
+    }
+    .bar{
+        display: flex;
+        font-size: 25px;
     }
     .hero{
         flex-direction: column;
@@ -695,6 +724,87 @@
         width: 100%;
         order: 1;
     }
+
+    .one-step-solution{
+        flex-direction: column;
+    }
+
+    .stop-solution-img{
+        order: 1;
+    }
+
+    .stop-solution-content{
+        order: 2;
+    }
+
+    .one-step-solution-2{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .solution-content-2{
+        width: 100%;
+        order: 2;
+    }
+
+    .solution-img-2{
+        width: 100%;
+        order: 1;
+        justify-content: center;
+    }
+
+    .skills-grid{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .swiper-wrapper{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .work-strategies, .quick-integration{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .work-strategies .content, .quick-integration-content{
+        width: 100%;
+        order: 2;
+    }
+
+    .work-strategies .work-strategies-image, .quick-integration-image{
+        width: 100%;
+        order: 1;
+    }
+
+    footer{
+        flex-direction: row;
+        padding: 40px 8%;
+        gap: 20px;
+    }
+
+    .footer-logo{
+        width: 100%;
+        order: -1;
+    }
+
+    .footer-links{
+        width: calc(33.33% - 14px);
+    }
+    .essential-tools h1{
+        font-size: 32px;
+    }
+    .testimonials-wrapper .heading{
+        font-size: 32px;
+    }
+    .heading h1{
+        font-size: 32px !important;
+    }
+    .signup-btn{
+        display: none;
+    }
+
 }
 
 /* Mobile phone media query end */
