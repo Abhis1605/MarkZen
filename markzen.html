@@ -29,11 +29,27 @@
           <a href="#">Pricing</a>
           <a href="#">FAQs</a>
         </div>
+        <div class="overlay" onclick="closeSideBar()"></div>
+        <aside class="sidebar">
+          <button class="closed-btn" onclick="closeSideBar()"><i class="fa-solid fa-xmark"></i></button>
+          <div class="menu">
+              <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Features</a>
+          <a href="#">Pages</a>
+          <a href="#">Pricing</a>
+          <a href="#">FAQs</a>
+          </div>
+          <div class="sidebar-btn">
+            <a href="#">Sign In</a>
+            <button class="btn">Sign Up</button>
+          </div>
+        </aside>
         <div class="signup-btn">
           <a href="#">Sign In</a>
           <button class="btn">Sign Up</button>
         </div>
-        <div class="bar">
+        <div class="bar" onclick="openSideBar()">
           <i class="fa-solid fa-bars"></i>
         </div>
       </div>
@@ -400,5 +416,7 @@
             <p>Designed and code by Abhi Solanki ❤️</p>
         </div>
         <!-- footer section end -->
+
+        <script src="index.js"></script>
   </body>
 </html>
