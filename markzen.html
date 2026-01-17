@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -31,14 +32,16 @@
         </div>
         <div class="overlay" onclick="closeSideBar()"></div>
         <aside class="sidebar">
-          <button class="closed-btn" onclick="closeSideBar()"><i class="fa-solid fa-xmark"></i></button>
+          <button class="closed-btn" onclick="closeSideBar()">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
           <div class="menu">
-              <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Features</a>
-          <a href="#">Pages</a>
-          <a href="#">Pricing</a>
-          <a href="#">FAQs</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Features</a>
+            <a href="#">Pages</a>
+            <a href="#">Pricing</a>
+            <a href="#">FAQs</a>
           </div>
           <div class="sidebar-btn">
             <a href="#">Sign In</a>
@@ -54,7 +57,12 @@
         </div>
       </div>
       <div class="hero">
-        <div class="hero-container-part1">
+        <div
+          class="hero-container-part1"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
           <h1>Smart Marketing Strategies for the Digital Lifestyle</h1>
           <h3>
             We help brands connect, grow, and thrive in today’s fast-moving
@@ -63,7 +71,7 @@
           <button class="hero-btn btn">Get Started for free</button>
           <h5>No credit card needed, free 14-days trial</h5>
         </div>
-        <div class="hero-container-part2">
+        <div class="hero-container-part2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
           <img src="img/hero-image.png" alt="" />
         </div>
       </div>
@@ -165,7 +173,7 @@
           </h5>
         </div>
         <div class="solution-img-2">
-        <img src="img/solution-img-2.png" alt="" />
+          <img src="img/solution-img-2.png" alt="" />
         </div>
       </div>
     </div>
@@ -177,7 +185,7 @@
           One powerful platform to plan, execute, and optimize your marketing.
         </h2>
       </div>
-      
+
       <div class="skills-grid">
         <!-- skill 1  -->
         <div class="skils">
@@ -218,7 +226,9 @@
           </div>
           <div class="skil-name">
             <h2>Email Marketing</h2>
-            <h5>Deliver personalized campaigns that convert and retain users</h5>
+            <h5>
+              Deliver personalized campaigns that convert and retain users
+            </h5>
           </div>
         </div>
         <!-- skill 5 -->
@@ -238,7 +248,9 @@
           </div>
           <div class="skil-name">
             <h2>Audience Engagement</h2>
-            <h5>Build stronger connections through data-driven communication</h5>
+            <h5>
+              Build stronger connections through data-driven communication
+            </h5>
           </div>
         </div>
       </div>
@@ -247,25 +259,33 @@
 
     <!-- work strategies start -->
     <div class="work-strategies">
-  <div class="content">
-    <h4>Work Strategies</h4>
-    <h1>Marketing Strategies That Deliver Growth</h1>
-    <p>
-      We design and execute data-driven marketing strategies that help brands
-      connect with the right audience and achieve measurable results.
-    </p>
+      <div class="content">
+        <h4>Work Strategies</h4>
+        <h1>Marketing Strategies That Deliver Growth</h1>
+        <p>
+          We design and execute data-driven marketing strategies that help
+          brands connect with the right audience and achieve measurable results.
+        </p>
 
-    <h3>Optimize Your Presence</h3>
+        <h3>Optimize Your Presence</h3>
 
-    <p><i class="fa fa-check"></i> Improve visibility across digital channels</p>
-    <p><i class="fa fa-check"></i> Engage the right audience with targeted content</p>
-    <p><i class="fa fa-check"></i> Maximize conversions through continuous optimization</p>
-  </div>
+        <p>
+          <i class="fa fa-check"></i> Improve visibility across digital channels
+        </p>
+        <p>
+          <i class="fa fa-check"></i> Engage the right audience with targeted
+          content
+        </p>
+        <p>
+          <i class="fa fa-check"></i> Maximize conversions through continuous
+          optimization
+        </p>
+      </div>
 
-  <div class="work-strategies-image">
-    <img src="img/work-strategies-img.png" alt="" />
-  </div>
-</div>
+      <div class="work-strategies-image">
+        <img src="img/work-strategies-img.png" alt="" />
+      </div>
+    </div>
 
     <!-- work strategies end -->
     <!-- quick integration  -->
@@ -288,135 +308,150 @@
       </div>
     </div>
     <!-- quick integration end -->
-     <!-- essential tools -->
-      <div class="essential-tools">
-        <h1>Easily Integrate All Your Essential Tools </h1>
-            <p> Connect your favorite platforms and manage your entire digital marketing
-    workflow from one unified dashboard.</p>
-        <div class="tools-wrapper">
-            <div class="tool">
-                <img src="img/tool-1.png" alt="zapier-logo">
-            </div>
-            <div class="tool second-img">
-                <img src="img/tool-2.png" alt="google-analytics-logo">
-            </div>
-            <div class="tool">
-                <img src="img/tool-3.png" alt="mailchimp-logo">
-            </div>
-            <div class="tool">
-                <img src="img/tool-4.png" alt="hubspot-logo">
-            </div>
+    <!-- essential tools -->
+    <div class="essential-tools">
+      <h1>Easily Integrate All Your Essential Tools</h1>
+      <p>
+        Connect your favorite platforms and manage your entire digital marketing
+        workflow from one unified dashboard.
+      </p>
+      <div class="tools-wrapper">
+        <div class="tool">
+          <img src="img/tool-1.png" alt="zapier-logo" />
         </div>
-        <button>View all integrations</button>
+        <div class="tool second-img">
+          <img src="img/tool-2.png" alt="google-analytics-logo" />
+        </div>
+        <div class="tool">
+          <img src="img/tool-3.png" alt="mailchimp-logo" />
+        </div>
+        <div class="tool">
+          <img src="img/tool-4.png" alt="hubspot-logo" />
+        </div>
       </div>
-      <!-- essential tools end -->
+      <button>View all integrations</button>
+    </div>
+    <!-- essential tools end -->
 
-      <!-- testimonials section -->
-       <div class="testimonials-wrapper">
-        <h2 class="heading">What Customer's Saying</h2>
-        <div class="swiper testimonial-swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="card">
-                        <div class="details">
-                            <img src="img/testi_author1.png" alt="img-1">
-                            <div>
-                                <h3>James Walazquaz</h3>
-                                <span>SEO Founder</span>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cum nulla quidem dolores blanditiis sequi.</p>
-                        <div class="icons">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
+    <!-- testimonials section -->
+    <div class="testimonials-wrapper">
+      <h2 class="heading">What Customer's Saying</h2>
+      <div class="swiper testimonial-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="details">
+                <img src="img/testi_author1.png" alt="img-1" />
+                <div>
+                  <h3>James Walazquaz</h3>
+                  <span>SEO Founder</span>
                 </div>
-                <div class="swiper-slide">
-                    <div class="card">
-                        <div class="details">
-                            <img src="img/testi_author2.png" alt="img-1">
-                            <div>
-                                <h3>Sophia Martinez</h3>
-                                <span>Marketing Manager</span>
-                            </div>
-                        </div>
-                        <p>The platform made it incredibly easy to manage campaigns and track performance. Our engagement improved significantly within weeks.</p>
-                        <div class="icons">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="card">
-                        <div class="details">
-                            <img src="img/testi_author3.png" alt="img-1">
-                            <div>
-                                <h3>Daniel Thompson</h3>
-                                <span>Growth Strategist</span>
-                            </div>
-                        </div>
-                        <p>From analytics to automation, everything works seamlessly. The insights helped us optimize our marketing strategy and increase conversions.</p>
-                        <div class="icons">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas cum nulla quidem dolores blanditiis sequi.
+              </p>
+              <div class="icons">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
             </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="details">
+                <img src="img/testi_author2.png" alt="img-1" />
+                <div>
+                  <h3>Sophia Martinez</h3>
+                  <span>Marketing Manager</span>
+                </div>
+              </div>
+              <p>
+                The platform made it incredibly easy to manage campaigns and
+                track performance. Our engagement improved significantly within
+                weeks.
+              </p>
+              <div class="icons">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="details">
+                <img src="img/testi_author3.png" alt="img-1" />
+                <div>
+                  <h3>Daniel Thompson</h3>
+                  <span>Growth Strategist</span>
+                </div>
+              </div>
+              <p>
+                From analytics to automation, everything works seamlessly. The
+                insights helped us optimize our marketing strategy and increase
+                conversions.
+              </p>
+              <div class="icons">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
         </div>
-       </div>
-       <!-- testimonials section end -->
+      </div>
+    </div>
+    <!-- testimonials section end -->
 
-       <!-- footer section -->
-        <footer>
-            <div class="footer-logo">
-                <img src="img/logo.png" alt="">
-            </div>
-            <div class="footer-links">
-                <h3>Company</h3>
-                <div>
-                    <p>About Us</p>
-                    <p>Our Blog</p>
-                    <p>Customers</p>
-                    <p>Communtity</p>
-                </div>
-            </div>
-            <div class="footer-links">
-                <h3>Product</h3>
-                <div>
-                    <p>Integration</p>
-                    <p>What's new</p>
-                    <p>Pricing</p>
-                    <p>Help Center</p>
-                </div>
-            </div>
-            <div class="footer-links">
-                <h3>Legal</h3>
-                <div>
-                    <p>Terms of Use</p>
-                    <p>Privacy Policy</p>
-                    <p>Cookie Policy</p>
-                    <p>Site Map</p>
-                </div>
-            </div>
-                
-        </footer>
-        <div class="footer-credit">
-            <p>Designed and code by Abhi Solanki ❤️</p>
+    <!-- footer section -->
+    <footer>
+      <div class="footer-logo">
+        <img src="img/logo.png" alt="" />
+      </div>
+      <div class="footer-links">
+        <h3>Company</h3>
+        <div>
+          <p>About Us</p>
+          <p>Our Blog</p>
+          <p>Customers</p>
+          <p>Communtity</p>
         </div>
-        <!-- footer section end -->
-
-        <script src="index.js"></script>
+      </div>
+      <div class="footer-links">
+        <h3>Product</h3>
+        <div>
+          <p>Integration</p>
+          <p>What's new</p>
+          <p>Pricing</p>
+          <p>Help Center</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h3>Legal</h3>
+        <div>
+          <p>Terms of Use</p>
+          <p>Privacy Policy</p>
+          <p>Cookie Policy</p>
+          <p>Site Map</p>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-credit">
+      <p>Designed and code by Abhi Solanki ❤️</p>
+    </div>
+    <!-- footer section end -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="index.js"></script>
   </body>
 </html>
